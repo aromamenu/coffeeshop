@@ -232,5 +232,60 @@ html, body {
   .menu-item-card.featured {
     grid-column: span 1;
   }
-  
+}
+
+/* =======================
+   Nature Animation Styles
+======================= */
+.nature-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.nature-animation .leaf,
+.nature-animation .flower,
+.nature-animation .port {
+  /* existing styles */
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.75;
+  animation: floatDown 12s linear infinite;
+
+  /* new */
+  top: calc(-50px + (var(--start-offset, 0) * 1px));
+}
+
+.leaf {
+  background-image: url('photos/leaf.png');
+}
+
+.flower {
+  background-image: url('photos/portafilter.png');
+}
+
+.port {
+  background-image: url('photos/coffee-beans.png');
+}
+
+@keyframes floatDown {
+  0% {
+    transform: translateY(-40px) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
 }

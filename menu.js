@@ -140,7 +140,56 @@ cocktail: [
   { ar: 'ماستر ص', en: 'Master Small', img: 'photos/master.jpg', price: '$0.50' },
   { ar: 'ماستر ك', en: 'Master Large', img: 'photos/master.jpg', price: '$1.00' }
 ],
+pasta :[
+  {
+    id: 'p1',
+    name: 'Spaghetti Pomodoro ',
+    price: '$7.00',
+    description: 'Spaghetti pasta tossed in our flavorful tomato sauce with basil, extra virgin olive oil, and grilled cherry tomatoes.',
+    category: 'Pasta',
+    img: 'photos/pomodoro.jpg'
+  },
+  {
+    id: 'p2',
+    name: 'Four Cheese Pasta ',
+    price: '$9.00',
+    description: 'Penne pasta with white creamy cheese sauce, fresh basil, cheddar cheese, mozzarella cheese, emmental, and Parmesan cheese.',
+    category: 'Pasta',
+    img: 'photos/four cheese pasta.jpg'
+  },
+  {
+    id: 'p3',
+    name: 'Fettuccine Alfredo Pasta ',
+    price: '$10.00',
+    description: 'Fettuccine pasta with fresh cream, Parmesan cheese, fresh mushrooms, and marinated grilled chicken topped with fresh parsley.',
+    category: 'Pasta',
+    img: 'photos/alfredo pasta.jpg'
+  },
+  {
+    id: 'p4',
+    name: 'Pesto Pasta ',
+    price: '$9.00',
+    description: 'Penne pasta with fresh cream, garlic, homemade pesto, and Parmesan cheese.',
+    category: 'Pasta',
+    img: 'photos/pink chicken pasta.jpg'
+  },
+  {
+    id: 'p5',
+    name: 'Pink Chicken Pasta  ',
+    price: '$9.00',
+    description: 'Penne pasta with fresh cream, tomato sauce, cherry tomatoes, marinated grilled chicken, and mixed cheese.',
+    category: 'Pasta',
+    img: 'photos/spaghetti pomodoro.jpg'
+  },
+  {
+    id: 'p6',
+    name: 'Pink Shrimp Pasta ',
+    price: '$10.00',
+    description: 'Penne pasta with fresh cream, garlic tomato sauce, garlic butter, and Parmesan cheese.',
+    category: 'Pasta',
+    img: 'photos/pink shrimp pasta.jpg'
+  }
 
-
+]
 
 };
