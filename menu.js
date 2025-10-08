@@ -24,68 +24,69 @@ export const MENU = {
 
 cold: [
   // Milkshakes
-  { id: 'c1', name: 'Oreo / أوريو', price: '$4.50', description: 'Creamy Oreo shake with a swirl of whipped cream', category: 'Milkshake' },
-  { id: 'c2', name: 'Lotus / لوتس', price: '$4.50', description: 'Sweet Lotus shake with a caramel touch', category: 'Milkshake' },
-  { id: 'c3', name: 'Chocolate / شوكولاتة', price: '$4.50', description: 'Rich chocolate shake topped with chocolate chips', category: 'Milkshake' },
-  { id: 'c4', name: 'Vanilla / فانيلا', price: '$4.00', description: 'Classic vanilla shake with a creamy finish', category: 'Milkshake' },
-  { id: 'c5', name: 'Strawberry / فراولة', price: '$4.50', description: 'Fresh strawberry shake crowned with whipped cream', category: 'Milkshake' },
-  { id: 'c6', name: 'Pistachio / فستق', price: '$5.00', description: 'Nutty pistachio shake with a smooth texture', category: 'Milkshake' },
+  { id: 'c1', name: 'Oreo / أوريو', price: '$', description: 'Creamy Oreo shake with a swirl of whipped cream', category: 'Milkshake',img:'photos/oreo.png' },
+  { id: 'c3', name: 'Chocolate / شوكولاتة', price: '$', description: 'Rich chocolate shake topped with chocolate chips', category: 'Milkshake',img:'photos/choco.png' },
+  { id: 'c4', name: 'Vanilla / فانيلا', price: '$', description: 'Classic vanilla shake with a creamy finish', category: 'Milkshake' ,img:'photos/van.png'},
+  { id: 'c5', name: 'Strawberry / فراولة', price: '$', description: 'Fresh strawberry shake crowned with whipped cream', category: 'Milkshake',img:'photos/straw.png' },
+  { id: 'c6', name: 'Pistachio / فستق', price: '$', description: 'Nutty pistachio shake with a smooth texture', category: 'Milkshake',img:'photos/pistachio.png' },
+ { id: 'c2', name: 'Lotus / لوتس', price: '$', description: 'Sweet Lotus shake with a caramel touch', category: 'Milkshake' ,img:'photos/lotus.png'},
 
-  // // Detox
-  // { id: 'd1', name: 'Charcoal Lemonade / ليمونادة فحمية', price: '$4.50', description: 'Zesty lemonade with a charcoal twist', category: 'Detox' },
-  // { id: 'd2', name: 'Pitaya Beauty Water / ماء بيتايا', price: '$5.00', description: 'Vibrant pitaya drink, refreshing and light', category: 'Detox' },
-  // { id: 'd3', name: 'Golden Glow / توهج ذهبي', price: '$5.00', description: 'Warm turmeric and spice drink for a golden boost', category: 'Detox' },
+  // // // Detox
+  // // { id: 'd1', name: 'Charcoal Lemonade / ليمونادة فحمية', price: '$4.50', description: 'Zesty lemonade with a charcoal twist', category: 'Detox' },
+  // // { id: 'd2', name: 'Pitaya Beauty Water / ماء بيتايا', price: '$5.00', description: 'Vibrant pitaya drink, refreshing and light', category: 'Detox' },
+  // // { id: 'd3', name: 'Golden Glow / توهج ذهبي', price: '$5.00', description: 'Warm turmeric and spice drink for a golden boost', category: 'Detox' },
 
-  // Smoothies
-  { id: 's1', name: 'Mango / مانجو', price: '$4.00', description: 'Tropical mango smoothie with a refreshing zing', category: 'Smoothie' },
-  { id: 's2', name: 'Strawberry / فراولة', price: '$4.00', description: 'Bright strawberry smoothie with fruity sweetness', category: 'Smoothie' },
-  { id: 's3', name: 'Mixed Berries / توت مشكل', price: '$4.50', description: 'A tangy mix of berries in a smooth blend', category: 'Smoothie' },
-  { id: 's4', name: 'Tropical Fruits / فواكه استوائية', price: '$4.50', description: 'Exotic tropical fruit medley in a refreshing smoothie', category: 'Smoothie' },
+  // // Smoothies
+  // { id: 's1', name: 'Mango / مانجو', price: '$4.00', description: 'Tropical mango smoothie with a refreshing zing', category: 'Smoothie' },
+  // { id: 's2', name: 'Strawberry / فراولة', price: '$4.00', description: 'Bright strawberry smoothie with fruity sweetness', category: 'Smoothie' },
+  // { id: 's3', name: 'Mixed Berries / توت مشكل', price: '$4.50', description: 'A tangy mix of berries in a smooth blend', category: 'Smoothie' },
+  // { id: 's4', name: 'Tropical Fruits / فواكه استوائية', price: '$4.50', description: 'Exotic tropical fruit medley in a refreshing smoothie', category: 'Smoothie' },
 
-  // Coolers
-  { id: 'cl1', name: 'Ice Tea Peach / شاي مثلج خوخ', price: '$3.50', description: 'Chilled peach tea with a crisp finish', category: 'Cooler' },
-  { id: 'cl2', name: 'Passion Fruit / فاكهة العاطفة', price: '$3.50', description: 'Fruity passion cooler with tropical flair', category: 'Cooler' },
-  { id: 'cl3', name: 'Mojito / موهيتو', price: '$4.00', description: 'Classic mint and lime sparkling refreshment', category: 'Cooler' },
-  { id: 'cl4', name: 'Flavored Mojito / موهيتو منكه', price: '$4.50', description: 'Mojito with a fruity twist and sparkling water', category: 'Cooler' },
+  // // Coolers
+  // { id: 'cl1', name: 'Ice Tea Peach / شاي مثلج خوخ', price: '$3.50', description: 'Chilled peach tea with a crisp finish', category: 'Cooler' },
+  // { id: 'cl2', name: 'Passion Fruit / فاكهة العاطفة', price: '$3.50', description: 'Fruity passion cooler with tropical flair', category: 'Cooler' },
+  // { id: 'cl3', name: 'Mojito / موهيتو', price: '$4.00', description: 'Classic mint and lime sparkling refreshment', category: 'Cooler' },
+  // { id: 'cl4', name: 'Flavored Mojito / موهيتو منكه', price: '$4.50', description: 'Mojito with a fruity twist and sparkling water', category: 'Cooler' },
 
   // Iced Coffee & Latte
-  { id: 'ic1', name: 'Iced Americano / أيس أمريكانو', price: '$3.50', description: 'Chilled espresso over ice', category: 'Iced Coffee' },
-  { id: 'ic2', name: 'Iced Latte / أيس لاتيه', price: '$4.00', description: 'Smooth espresso with cold milk and ice', category: 'Iced Coffee' },
-  { id: 'ic3', name: 'Flavored Iced Latte / أيس لاتيه منكه', price: '$4.50', description: 'Iced latte with a hint of your favorite flavor', category: 'Iced Coffee' },
-  { id: 'ic4', name: 'Iced Mocha / أيس موكا', price: '$4.50', description: 'Chocolatey iced coffee with creamy milk', category: 'Iced Coffee' },
-  { id: 'ic5', name: 'Iced Matcha / أيس ماتشا', price: '$5.00', description: 'Refreshing cold matcha latte', category: 'Iced Coffee' },
-  { id: 'ic6', name: 'Iced Tiramisu / أيس تيراميسو', price: '$5.00', description: 'Iced coffee with a creamy tiramisu topping', category: 'Iced Coffee' },
+  { id: 'ic1', name: 'Iced Americano / أيس أمريكانو', price: '$', description: 'Chilled espresso over ice', category: 'Iced Coffee', img:'photos/am.png' },
+  { id: 'ic2', name: 'Iced Latte / أيس لاتيه', price: '$', description: 'Smooth espresso with cold milk and ice', category: 'Iced Coffee', img:'photos/latte.png' },
+ // { id: 'ic3', name: 'Flavored Iced Latte / أيس لاتيه منكه', price: '$', description: 'Iced latte with a hint of your favorite flavor', category: 'Iced Coffee' },
+  { id: 'ic4', name: 'Iced Mocha / أيس موكا', price: '$', description: 'Chocolatey iced coffee with creamy milk', category: 'Iced Coffee' , img:'photos/mocha.png' },
+ // { id: 'ic5', name: 'Iced Matcha / أيس ماتشا', price: '$', description: 'Refreshing cold matcha latte', category: 'Iced Coffee', img:'photos/am.png' },
+ // { id: 'ic6', name: 'Iced Tiramisu / أيس تيراميسو', price: '$', description: 'Iced coffee with a creamy tiramisu topping', category: 'Iced Coffee', img:'photos/am.png' },
 ]
 
 ,
 
  saj: [
-  { id:'s1', ar:'صاج جبنة', en:'Cheese Saj', img:'photos/صاج جبنة.jpg', price:'$2.00' },
-  { id:'s2', ar:'صاج زعتر', en:'Za’atar Saj', img:'photos/صاج zaatar.jpg', price:'$1.00' },
-  { id:'s3', ar:'صاج حبش وجبنة', en:'Turkey & Cheese Saj', img:'photos/habash.webp', price:'$2.50' },
-  { id:'s4', ar:'صاج قشقوان', en:'Kashkaval Saj', img:'photos/صاج قشقوان.jpg', price:'$3.00' },
-  { id:'s5', ar:'صاج مرتديلا', en:'Mortadella Saj', img:'photos/صاج مرتديلا.jpg', price:'$2.50' },
-  { id:'s6', ar:'صاج لبنة', en:'Labneh Saj', img:'photos/صاج لبنة.webp', price:'$1.00' },
-  { id:'s7', ar:'صاج قشقوان وحبش', en:'Kashkaval & Turkey Saj', img:'photos/habash.webp', price:'$3.00' },
-  { id:'s8', ar:'صاج قشقوان ومرتديلا', en:'Kashkaval & Mortadella Saj', img:'photos/habashh.webp', price:'$3.00' },
-  { id:'s9', ar:'صاج نيوتيلا', en:'Nutella Saj', img:'photos/CHOCO-SAJ.webp', price:'$2.50' },
-  { id:'s9', ar:'صاج بيكون', en:'Picon Saj', img:'photos/صاج جبنة.jpg', price:'$1.50' },
+  { id:'s1', ar:'صاج جبنة', en:'Cheese Saj', img:'photos/jebnesaj.png', price:'$2.00' },
+  { id:'s2', ar:'صاج زعتر', en:'Za’atar Saj', img:'photos/zaatarsaj.png', price:'$1.00' },
+  { id:'s3', ar:'صاج حبش وجبنة', en:'Turkey & Cheese Saj', img:'photos/saj (2).png', price:'$2.50' },
+  { id:'s4', ar:'صاج قشقوان', en:'Kashkaval Saj', img:'photos/kashkaval.png', price:'$3.00' },
+  { id:'s5', ar:'صاج مرتديلا', en:'Mortadella Saj', img:'photos/martadella.png', price:'$2.50' },
+  { id:'s6', ar:'صاج لبنة', en:'Labneh Saj', img:'photos/labne.png', price:'$1.00' },
+ 
+  { id:'s8', ar:'صاج قشقوان ومرتديلا', en:'Kashkaval & Mortadella Saj', img:'photos/martadellakash.png', price:'$3.00' },
+  { id:'s9', ar:'صاج نيوتيلا', en:'Nutella Saj', img:'photos/nutellasaj.png', price:'$2.50' },
+  { id:'s9', ar:'صاج بيكون', en:'Picon Saj', img:'photos/picon.png', price:'$1.50' }, 
+  { id:'s7', ar:'صاج قشقوان وحبش', en:'Kashkaval & Turkey Saj', img:'photos/saj (2).png', price:'$3.00' },
 ]
 ,
 
 cocktail: [
-  { id: 'k0', ar: 'عصير ليمون', en: 'Lemon Juice', price: '$3.00' },
-  { id: 'k3', ar: 'عصير جزر', en: 'Carrot Juice', price: '$3.00' },
-  { id: 'k4', ar: 'عصير تفاح', en: 'Apple Juice', price: '$3.00' },
-  { id: 'k5', ar: 'ليموناضة', en: 'Lemonade', price: '$3.00' },
-  { id: 'k6', ar: 'ليموناضة ونعنع', en: 'Lemonade Mint', price: '$4.00' },
-  { id: 'k7', ar: 'حليب وموز', en: 'Milk & Banana Shake', price: '$4.00' },
-  { id: 'k8', ar: 'كوكتيل فواكه', en: 'Fruit Cocktail', price: '$4.00' },
-  { id: 'k9', ar: 'عصير فريز', en: 'Strawberry Juice', price: '$4.00' },
-  { id: 'k10', ar: 'عصير منغا', en: 'Mango Juice', price: '$5.00' },
-  { id: 'k11', ar: 'عصير اناناس', en: 'Pineapple Juice', price: '$5.00' },
-  { id: 'k12', ar: 'فريز وحليب', en: 'Strawberry Milkshake', price: '$4.00' },
-  { id: 'k13', ar: 'عصير افوكا', en: 'Avocado Juice', price: '$5.00' },
+  { id: 'k0', ar: 'عصير ليمون', en: 'orange Juice', price: '$3.00' ,img:'photos/orange.png'},
+  { id: 'k3', ar: 'عصير جزر', en: 'Carrot Juice', price: '$3.00' ,img:'photos/carrot.png'},
+  { id: 'k4', ar: 'عصير تفاح', en: 'Apple Juice', price: '$3.00' ,img:'photos/apple.png'},
+  { id: 'k5', ar: 'ليموناضة', en: 'Lemonade', price: '$3.00' , img:'photos/l.png'},
+  { id: 'k6', ar: 'ليموناضة ونعنع', en: 'Lemonade Mint', price: '$4.00',img:'photos/lm.png' },
+  { id: 'k7', ar: 'حليب وموز', en: 'Milk & Banana Shake', price: '$4.00' ,img:'photos/ban.png'},
+  { id: 'k8', ar: 'كوكتيل فواكه', en: 'Fruit Cocktail', price: '$4.00',img:'photos/cok.png' },
+  { id: 'k9', ar: 'عصير فريز', en: 'Strawberry Juice', price: '$4.00' ,img:'photos/berry.png'},
+  { id: 'k10', ar: 'عصير منغا', en: 'Mango Juice', price: '$5.00' ,img:'photos/mango.png'},
+  { id: 'k11', ar: 'عصير اناناس', en: 'Pineapple Juice', price: '$5.00',img:'photos/pine.png' },
+  { id: 'k12', ar: 'فريز وحليب', en: 'Strawberry and milk', price: '$4.00',img:'photos/sm.png' },
+  { id: 'k13', ar: 'عصير افوكا', en: 'Avocado Juice', price: '$5.00',img:'photos/avocado.png' },
   { id: 'k14', ar: 'كوكتيل اروما', en: 'Aroma Cocktail', price: '$7.00' },
 ],
 
