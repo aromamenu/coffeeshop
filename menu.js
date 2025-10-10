@@ -1,6 +1,11 @@
 // menu.js
 export const MENU = {
  hot: [
+    { id:'h19', ar:'كراميل ماكياتو', en:'Caramel Macchiato', img:'photos/caramelmachiato.png', price:'$2.50' },
+  { id:'h20', ar:' كافيه موكا لاتيه' , en:'Caffè Mocha late', img:'photos/caffemocha.png', price:'$2.50' },
+  { id:'h21', ar:'وايت موكا', en:'White Mocha', img:'photos/white-mocha.png', price:'$2.50' },
+  { id:'h22', ar:'شوكولاتة ساخنة', en:'Hot Chocolate', img:'photos/hotchocolate.png', price:'$2.00' },
+
   { id:'h1', ar:'شاي', en:'Tea', img:'photos/shay.jpg', price:'$0.70' },
   { id:'h2', ar:'قهوة', en:'Coffee', img:'photos/ahwe.jpg', price:'$0.70' },
   { id:'h3', ar:'زهورات', en:'Herbal Mix', img:'photos/زهورات.jpg', price:'$1.00' },
@@ -23,41 +28,26 @@ export const MENU = {
 ,
 
 cold: [
-  // Milkshakes
-  { id: 'c1', name: 'Oreo / أوريو', price: '$', description: 'Creamy Oreo shake with a swirl of whipped cream', category: 'Milkshake',img:'photos/oreo.png' },
-  { id: 'c3', name: 'Chocolate / شوكولاتة', price: '$', description: 'Rich chocolate shake topped with chocolate chips', category: 'Milkshake',img:'photos/choco.png' },
-  { id: 'c4', name: 'Vanilla / فانيلا', price: '$', description: 'Classic vanilla shake with a creamy finish', category: 'Milkshake' ,img:'photos/van.png'},
-  { id: 'c5', name: 'Strawberry / فراولة', price: '$', description: 'Fresh strawberry shake crowned with whipped cream', category: 'Milkshake',img:'photos/straw.png' },
-  { id: 'c6', name: 'Pistachio / فستق', price: '$', description: 'Nutty pistachio shake with a smooth texture', category: 'Milkshake',img:'photos/pistachio.png' },
- { id: 'c2', name: 'Lotus / لوتس', price: '$', description: 'Sweet Lotus shake with a caramel touch', category: 'Milkshake' ,img:'photos/lotus.png'},
+  // 🍨 Milkshakes
+  { id: 'c1', name: 'Oreo / أوريو', price: '4$', description: 'Creamy Oreo shake with a swirl of whipped cream', category: 'Milkshake', img:'photos/oreo.png' },
+  { id: 'c2', name: 'Lotus / لوتس', price: '4$', description: 'Sweet Lotus shake with a caramel touch', category: 'Milkshake', img:'photos/lotus.png' },
+  { id: 'c3', name: 'Chocolate / شوكولاتة', price: '3.5$', description: 'Rich chocolate shake topped with chocolate chips', category: 'Milkshake', img:'photos/choco.png' },
+  { id: 'c5', name: 'Strawberry / فراولة', price: '3.5$', description: 'Fresh strawberry shake crowned with whipped cream', category: 'Milkshake', img:'photos/straw.png' },
 
-  // // // Detox
-  // // { id: 'd1', name: 'Charcoal Lemonade / ليمونادة فحمية', price: '$4.50', description: 'Zesty lemonade with a charcoal twist', category: 'Detox' },
-  // // { id: 'd2', name: 'Pitaya Beauty Water / ماء بيتايا', price: '$5.00', description: 'Vibrant pitaya drink, refreshing and light', category: 'Detox' },
-  // // { id: 'd3', name: 'Golden Glow / توهج ذهبي', price: '$5.00', description: 'Warm turmeric and spice drink for a golden boost', category: 'Detox' },
+  // 🧊 Iced Coffee
+  { id: 'ic3', name: 'Iced Mocha / أيس موكا', price: '3.25$', description: 'Chocolatey iced coffee with creamy milk', category: 'Iced Coffee', img:'photos/mocha.png' },
+  { id: 'ic4', name: 'Iced Caramel / أيس كراميل', price: '3.25$', description: 'Iced coffee with rich caramel flavor', category: 'Iced Coffee', img:'photos/icedcaramel.png' },
+  { id: 'ic5', name: 'Iced White Mocha / أيس وايت موكا', price: '3.25$', description: 'Smooth espresso with white chocolate over ice', category: 'Iced Coffee', img:'photos/whitemochai.png' },
 
-  // // Smoothies
-  // { id: 's1', name: 'Mango / مانجو', price: '$4.00', description: 'Tropical mango smoothie with a refreshing zing', category: 'Smoothie' },
-  // { id: 's2', name: 'Strawberry / فراولة', price: '$4.00', description: 'Bright strawberry smoothie with fruity sweetness', category: 'Smoothie' },
-  // { id: 's3', name: 'Mixed Berries / توت مشكل', price: '$4.50', description: 'A tangy mix of berries in a smooth blend', category: 'Smoothie' },
-  // { id: 's4', name: 'Tropical Fruits / فواكه استوائية', price: '$4.50', description: 'Exotic tropical fruit medley in a refreshing smoothie', category: 'Smoothie' },
+  // ❄️ Frappe
+  { id: 'f0', name: 'Classic Frappe / كلاسيك فرابتشينو', price: '3$', description: 'Classic creamy coffee frappe', category: 'Frappe', img:'photos/van.png' },
+  { id: 'f1', name: 'Tiramisu Frappe / تيراميسو فرابتشينو', price: '3.5$', description: 'Creamy tiramisu blended with espresso and ice', category: 'Frappe', img:'photos/tiramissuf.jpg' },
+  { id: 'f2', name: 'Caramel Frappe / كراميل فرابتشينو', price: '3$', description: 'Blended caramel coffee with whipped cream', category: 'Frappe', img:'photos/caramelf.jpg' },
+  { id: 'f3', name: 'Mocha Frappe / موكا فرابتشينو', price: '3$', description: 'Iced blend of chocolate, espresso, and milk', category: 'Frappe', img:'photos/mochaf.jpg' },
+  { id: 'f4', name: 'White Mocha Frappe / وايت موكا فرابتشينو', price: '3$', description: 'Blended white chocolate espresso with milk and ice', category: 'Frappe', img:'photos/whitemochaf.jpg' }
+],
 
-  // // Coolers
-  // { id: 'cl1', name: 'Ice Tea Peach / شاي مثلج خوخ', price: '$3.50', description: 'Chilled peach tea with a crisp finish', category: 'Cooler' },
-  // { id: 'cl2', name: 'Passion Fruit / فاكهة العاطفة', price: '$3.50', description: 'Fruity passion cooler with tropical flair', category: 'Cooler' },
-  // { id: 'cl3', name: 'Mojito / موهيتو', price: '$4.00', description: 'Classic mint and lime sparkling refreshment', category: 'Cooler' },
-  // { id: 'cl4', name: 'Flavored Mojito / موهيتو منكه', price: '$4.50', description: 'Mojito with a fruity twist and sparkling water', category: 'Cooler' },
 
-  // Iced Coffee & Latte
-  { id: 'ic1', name: 'Iced Americano / أيس أمريكانو', price: '$', description: 'Chilled espresso over ice', category: 'Iced Coffee', img:'photos/am.png' },
-  { id: 'ic2', name: 'Iced Latte / أيس لاتيه', price: '$', description: 'Smooth espresso with cold milk and ice', category: 'Iced Coffee', img:'photos/latte.png' },
- // { id: 'ic3', name: 'Flavored Iced Latte / أيس لاتيه منكه', price: '$', description: 'Iced latte with a hint of your favorite flavor', category: 'Iced Coffee' },
-  { id: 'ic4', name: 'Iced Mocha / أيس موكا', price: '$', description: 'Chocolatey iced coffee with creamy milk', category: 'Iced Coffee' , img:'photos/mocha.png' },
- // { id: 'ic5', name: 'Iced Matcha / أيس ماتشا', price: '$', description: 'Refreshing cold matcha latte', category: 'Iced Coffee', img:'photos/am.png' },
- // { id: 'ic6', name: 'Iced Tiramisu / أيس تيراميسو', price: '$', description: 'Iced coffee with a creamy tiramisu topping', category: 'Iced Coffee', img:'photos/am.png' },
-]
-
-,
 
  saj: [
   { id:'s1', ar:'صاج جبنة', en:'Cheese Saj', img:'photos/jebnesaj.png', price:'$2.00' },
@@ -191,6 +181,145 @@ pasta :[
     img: 'photos/pink shrimp pasta.jpg'
   }
 
-]
+],
+ desserts: [
+    {
+      category_en: "Rolled Ice Cream",
+      category_ar: "آيس كريم رول",
+      img: "photos/icecream.png", // one image for the whole category
+      items: [
+        { 
+          name_en: "Nutella Oreo Lotus White", 
+          name_ar: "نوتيلا، أوريو، لوتس، وايت", 
+          price: 6,
+          description: "Rolled ice cream with Nutella, Oreo, Lotus White, served with toppings."
+        },
+        { 
+          name_en: "Blackberry Blueberry Raspberry Strawberry", 
+          name_ar: "توت أسود، توت أزرق، توت أحمر، فراولة", 
+          price: 6,
+          description: "Mixed berry rolled ice cream with fresh fruits and sweet syrup."
+        },
+        { 
+          name_en: "Mango Lotus Nutella", 
+          name_ar: "مانجو، لوتس، نوتيلا", 
+          price: 5,
+          description: "Refreshing mango ice cream with Lotus and Nutella drizzle."
+        },
+        { 
+          name_en: "Strawberry Oreo Nutella", 
+          name_ar: "فراولة، أوريو، نوتيلا", 
+          price: 5,
+          description: "Strawberry flavored rolled ice cream topped with Oreo and Nutella."
+        },
+        { 
+          name_en: "Raspberry White Chocolate Lotus", 
+          name_ar: "توت أحمر، شوكولاتة بيضاء، لوتس", 
+          price: 6,
+          description: "Raspberry ice cream with white chocolate and Lotus crumbs."
+        }
+      ]
+    },
+    {
+      category_en: "Mini Pancakes",
+      category_ar: "ميني بان كيك",
+      img: "photos/minip.png",
+      items: [
+        { 
+          name_en: "10 Pcs of Mini Pancakes - Nutella Oreo Lotus", 
+          name_ar: "10 قطع ميني بان كيك - نوتيلا، أوريو، لوتس", 
+          price: 5,
+          description: "Ten mini pancakes served with Nutella, Oreo, and Lotus topping."
+        },
+        { 
+          name_en: "Kinder  Lotus White", 
+          name_ar: "كيندر، لوتس، وايت", 
+          price: 6,
+          description: "Mini pancakes with Kinder chocolate, Lotus, and White cream."
+        },
+        { 
+          name_en: "Nutella Lotus  Oreo White", 
+          name_ar: "نوتيلا، لوتس، أوريو، وايت", 
+          price: 6,
+          description: "Delicious mini pancakes with Nutella, Lotus, Oreo, and White chocolate."
+        },
+        { 
+          name_en: "Belgian Chocolate White Strawberry", 
+          name_ar: "شوكولاتة بلجيكية، وايت، فراولة", 
+          price: 6,
+          description: "Belgian chocolate pancakes with white chocolate and fresh strawberry."
+        },
+        { 
+          name_en: "Ramadan Mini Pancakes - Pistachio White Chocolate Cotton Candy topped with Nuts and Kashta Gelato", 
+          name_ar: "فستق، شوكولاتة بيضاء، غزل البنات، مغطاة بالمكسرات وكشتة جيلاتو", 
+          price: 7,
+          description: "Festive mini pancakes with pistachio, white chocolate, cotton candy, nuts, and kashta gelato."
+        }
+      ]
+    },
+    {
+      category_en: "Cups",
+      category_ar: "كوب",
+      img: "photos/brownies.png",
+      items: [
+        { 
+          name_en: "Andy's Cup - Brownie Nutella White Strawberry Banana Whipped Cream", 
+          name_ar: "آندي - براوني، نوتيلا، وايت، فراولة، موز، كريمة مخفوقة", 
+          price: 5,
+          description: "Cup dessert with brownie, Nutella, white chocolate, strawberry, banana, and whipped cream."
+        },
+        { 
+          name_en: "Andy's Cup with Gelato - Brownie Nutella White Strawberry Banana Vanilla Gelato", 
+          name_ar: "آندي مع جيلاتو - براوني، نوتيلا، وايت، فراولة، موز، فانيلا جيلاتو", 
+          price: 6,
+          description: "Cup dessert with brownie, Nutella, white chocolate, strawberry, banana, and vanilla gelato."
+        },
+        { 
+          name_en: "Othmaleye Cup - 2 Scoops Gelato, Kashta, Kunafa, Pistachio and Nutella", 
+          name_ar: "عثملية - سكوبين جيلاتو، كشتة، كنافة، فستق، نوتيلا", 
+          price: 5,
+          description: "Cup with gelato, kashta, kunafa, pistachio, and Nutella toppings."
+        },
+        { 
+          name_en: "Daokeyeh Cup - Daokeyeh Dough with Gelato Kashta topped with Nutella, Pistachios and Nuts", 
+          name_ar: "داوكية - عجينة داوكية مع جيلاتو وكشتة ومغطاة بنوتيلا وفستق ومكسرات", 
+          price: 5,
+          description: "Cup dessert featuring Daokeyeh dough with gelato, kashta, Nutella, pistachios, and nuts."
+        }
+      ]
+    },
+    {
+      category_en: "Crepe",
+      category_ar: "كريب",
+      img: "photos/crepe.png",
+      items: [
+        { 
+          name_en: "Nutella, White, Oreo", 
+          name_ar: "نوتيلا / وايت /  أوريو", 
+          price:  "5$",
+          description: "Crepe filled with Nutella, white chocolate, and Oreo pieces."
+        },
+        { 
+          name_en: "Lotus Kinder White", 
+          name_ar: "لوتس/ كيندر/ وايت", 
+          price:  "6$",
+          description: "Crepe with Lotus, Kinder, and white chocolate."
+        },
+        { 
+          name_en: "Belgian and White", 
+          name_ar: "بلجيكي ووايت", 
+          price:  "5$",
+          description: "Belgian chocolate and white chocolate filled crepe."
+        },
+        { 
+          name_en: "Dubai Crepe - Pistachio and Kunafa topped with Belgian and White", 
+          name_ar: "كريب دبي - فستق وكنافة مغطاة بشوكولاتة بلجيكية ووايت", 
+          price: "7$",
+          description: "Dubai style crepe with pistachio, kunafa, Belgian and white chocolate toppings."
+        }
+      ]
+    }
+  ]
+
 
 };
