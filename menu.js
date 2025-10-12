@@ -42,9 +42,9 @@ cold: [
   // ❄️ Frappe
   { id: 'f0', name: 'Classic Frappe / كلاسيك فرابتشينو', price: '3$', description: 'Classic creamy coffee frappe', category: 'Frappe', img:'photos/van.png' },
   { id: 'f1', name: 'Tiramisu Frappe / تيراميسو فرابتشينو', price: '3.5$', description: 'Creamy tiramisu blended with espresso and ice', category: 'Frappe', img:'photos/tiramissuf.jpg' },
-  { id: 'f2', name: 'Caramel Frappe / كراميل فرابتشينو', price: '3$', description: 'Blended caramel coffee with whipped cream', category: 'Frappe', img:'photos/caramelf.jpg' },
-  { id: 'f3', name: 'Mocha Frappe / موكا فرابتشينو', price: '3$', description: 'Iced blend of chocolate, espresso, and milk', category: 'Frappe', img:'photos/mochaf.jpg' },
-  { id: 'f4', name: 'White Mocha Frappe / وايت موكا فرابتشينو', price: '3$', description: 'Blended white chocolate espresso with milk and ice', category: 'Frappe', img:'photos/whitemochaf.jpg' }
+  { id: 'f2', name: 'Caramel Frappe / كراميل فرابتشينو', price: '3.5$', description: 'Blended caramel coffee with whipped cream', category: 'Frappe', img:'photos/caramelf.jpg' },
+  { id: 'f3', name: 'Mocha Frappe / موكا فرابتشينو', price: '3.5$', description: 'Iced blend of chocolate, espresso, and milk', category: 'Frappe', img:'photos/mochaf.jpg' },
+  { id: 'f4', name: 'White Mocha Frappe / وايت موكا فرابتشينو', price: '3.5$', description: 'Blended white chocolate espresso with milk and ice', category: 'Frappe', img:'photos/whitemochaf.jpg' }
 ],
 
 
