@@ -106,8 +106,6 @@ cocktail: [
   { ar: 'ريندو', en: 'Rindo', img: 'photos/rindo.avif', price: '$1.00' },
   { ar: 'الوفيرا', en: 'Aloe Vera', img: 'photos/aloevera.avif', price: '$2.00' },
   { ar: 'ريم غازية', en: 'Rim Sparkling', img: 'photos/rim sp.avif', price: '$1.00' },
-  { ar: 'مياه ص', en: 'Water Small', img: 'photos/water small.webp', price: '$0.35' },
-  { ar: 'مياه ك', en: 'Water Large', img: 'photos/water big.jpg', price: '$1.00' },
   { ar: 'ريم Fruits', en: 'Rim Fruits', img: 'photos/Rim-Web-RXF-A.jpg', price: '$1.80' },
 
   // 🍫 شوكولا
@@ -129,7 +127,9 @@ cocktail: [
   { ar: 'ريماس براوني', en: 'Rimas Brownie', img: 'photos/rimas brownie.jpg', price: '$0.60' },
   { ar: 'ريماس تمر', en: 'Rimas Date Bar', img: 'photos/rimas date.jpg', price: '$0.50' },
   { ar: 'ماستر ص', en: 'Master Small', img: 'photos/master.jpg', price: '$0.50' },
-  { ar: 'ماستر ك', en: 'Master Large', img: 'photos/master.jpg', price: '$1.00' }
+  { ar: 'ماستر ك', en: 'Master Large', img: 'photos/master.jpg', price: '$1.00' },
+    { ar: 'مياه ص', en: 'Water Small', price: '$0.35' },
+  { ar: 'مياه ك', en: 'Water Large', price: '$1.00' }
 ],
 pasta :[
   {
